@@ -1,0 +1,22 @@
+header{
+    background-color: black;
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 1, 1);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.b-kb{
+    display: flex;
+    justify-content: space-between;
+}
+
+.b-kb a{
+  
+    color: white;
+    text-decoration: none;
+}
