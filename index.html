@@ -10,12 +10,16 @@
 <link rel="stylesheet" href="./reset.css.">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <link rel="stylesheet" href="./assets/footer.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./main.css">
     <title>ADHUC</title>
 </head>
 <body>
     <header>
         
-        <img src="./assets/icons/ADHUC.png" alt="ADHUC">
+        <img src="./assets/icons/ADHUC.png" id="adhucImg" alt="ADHUC">
        <div class="b-kb">
         <a href=""><h2>ACCOUNT</h2></a>
         <a href=""><h2>SHOP</h2></a>
@@ -25,21 +29,25 @@
 
     </header>
     <main>
-
-            
-      
-       
-     
-      
       <button class="bar" onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></button>
       <div class="dropdown">
         <ul class="hidden">
-          <li><a href="">ADHUC 1</a></li>
-          <li><a href="">ADHUC 2</a></li>
-          <li><a href="">ADHUC 3</a></li>
+          <li class="list"><a href="">ADHUC 1</a></li>
+          <li class="list"><a href="">ADHUC 2</a></li>
+          <li class="list"><a href="">ADHUC 3</a></li>
         </ul>
       </div>
       
+        <div class="produtos">
+
+
+
+
+          
+        </div>
+
+
+
       <script>
         // Função para abrir ou fechar o menu
         function toggleMenu() {
@@ -62,15 +70,56 @@
     <h1>ADHUC</h1>
     <p>aaaaaaaaaaada</p>
     <div id="footer_social_media">
-      <a href="#"><i class="fa-brands fa-instagram"></i></a>
-      <a href="#"></a>
-      <a href="#"></a>
+      <a href="#" class="footer-link" id="instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#" class="footer-link" id="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#" class="footer-link" id="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
     </div>
   </div>
+  <ul class="footer-list">
+    <li>blog</li>
+    <li>
+      <a href="#" class="footer-link">tech</a>
+    </li>
+    <li>
+      <a href="#" class="footer-link">adfrf</a>
+    </li>
+    <li>
+      <a href="#" class="footer-link">sdfgtg</a>
+    </li>
+  </ul>
+
+  <ul class="footer-list">
+    <li>ddddviw</li>
+    <li>
+      <a href="#" class="footer-link">tech</a>
+    </li>
+    <li>
+      <a href="#" class="footer-link">adfrf</a>
+    </li>
+    <li>
+      <a href="#" class="footer-link">sdfgtg</a>
+    </li>
+  </ul>
+
+  <ul class="footer-list">
+    <li>blog</li>
+    <li>
+      <a href="#" class="footer-link">tech</a>
+    </li>
+    <li>
+      <a href="#" class="footer-link">adfrf</a>
+    </li>
+    <li>
+      <a href="#" class="footer-link">sdfgtg</a>
+    </li>
+  </ul>
 </div>
 
 
-
+<div id="footer-copyright">
+  &#169
+  2024 ADHUC reserved
+</div>
 
     </footer>
 </body>
