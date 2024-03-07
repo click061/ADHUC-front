@@ -7,7 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./reset.css">
+<link rel="stylesheet" href="./reset.css.">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="./assets/footer.css">
     <title>ADHUC</title>
 </head>
 <body>
@@ -15,21 +17,38 @@
         
         <img src="./assets/icons/ADHUC.png" alt="ADHUC">
        <div class="b-kb">
-        <a href=""><h2>aaa</h2></a>
-        <a href=""><h2>aaa</h2></a>
-        <a href=""><h2>aaa</h2></a>
-
-
-
+        <a href=""><h2>ACCOUNT</h2></a>
+        <a href=""><h2>SHOP</h2></a>
+        <a href=""><h2>INSTAGRAM</h2></a>
         </div>
 
 
     </header>
     <main>
 
-
-
-
+            
+      
+       
+     
+      
+      <button class="bar" onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></button>
+      <div class="dropdown">
+        <ul class="hidden">
+          <li><a href="">ADHUC 1</a></li>
+          <li><a href="">ADHUC 2</a></li>
+          <li><a href="">ADHUC 3</a></li>
+        </ul>
+      </div>
+      
+      <script>
+        // Função para abrir ou fechar o menu
+        function toggleMenu() {
+          // Seleciona o elemento ul dentro da div com classe dropdown
+          var menu = document.querySelector(".dropdown ul");
+          // Alterna a classe hidden no elemento menu
+          menu.classList.toggle("hidden");
+        }
+      </script>
 
 
 
@@ -38,7 +57,17 @@
     </main>
     <footer>
 
-
+<div id="footer_content">
+  <div id="footer_contacts">
+    <h1>ADHUC</h1>
+    <p>aaaaaaaaaaada</p>
+    <div id="footer_social_media">
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"></a>
+      <a href="#"></a>
+    </div>
+  </div>
+</div>
 
 
 

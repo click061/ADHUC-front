@@ -1,16 +1,19 @@
 header{
     background-color: black;
     text-align: center;
-    border-bottom: 1px solid rgb(255, 1, 1);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    width: 100%;
 }
 
 *{
     padding: 0;
     margin: 0;
-
+   
 }
 
 .b-kb{
+    
+    border-top: 1px solid white;
     display: flex;
     justify-content: space-between;
 }
@@ -19,4 +22,65 @@ header{
   
     color: white;
     text-decoration: none;
+
 }
+
+.b-kb a :hover{
+    opacity: 0.4;
+transition: all 0.7s;
+}
+
+body{
+    background-color: black;
+}
+
+.bar{
+    border: none;
+    font-size: 1.5rem;
+    background: none;
+}
+
+.bar i{
+    color: white;
+
+}
+
+         /* Estilo do botão */
+         button {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+          }
+        
+          /* Estilo do menu */
+          .dropdown {
+            position: relative;
+            margin-top: 10px;
+            list-style: none;
+          }
+        
+          .dropdown ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            background-color: rgb(0, 0, 0);
+         
+            box-shadow: 0 2px 4px rgba(255, 0, 0,);
+          }
+        
+          .dropdown li {
+            padding: 10px;
+            color: white;
+            
+             list-style: none;
+          }
+        
+          
+        
+          /* Classe para esconder o menu */
+          .hidden {
+            display: none;
+            list-style: none;
+          }
