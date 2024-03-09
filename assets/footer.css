@@ -111,7 +111,9 @@ margin-bottom: 0.75rem;
         padding-top: 4rem;
     }
 
-
+.produtos{
+    gap: 20px;
+}
 
    
 }
@@ -126,8 +128,19 @@ margin-bottom: 0.75rem;
     header{
         position: fixed;
     }
+   
+    .produto img{
+        max-width: 150px;
+        height: auto;
+    }
 
+    .produto h2{
+        font-size: 17px;
+    }
 
+    .produto h3{
+        font-size: 15px;
+    }
 
 }
 

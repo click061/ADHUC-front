@@ -35,7 +35,7 @@ header{
 
 .b-kb a :hover{
     opacity: 0.4;
-transition: all 0.7s;
+transition: all 0.4s;
 }
 
 body{
@@ -62,12 +62,11 @@ body{
             cursor: pointer;
           }
         
-          /* Estilo do menu */
           .dropdown {
             position: relative;
             margin-top: 10px;
             list-style: none;
-            list-style: none;
+            
           }
         
           .dropdown ul {
@@ -87,19 +86,23 @@ body{
           }
         
           
-        
-          /* Classe para esconder o menu */
-          .hidden {
-            display: none;
-            list-style: none;
-          }
+ .listus {
+  text-decoration: none;
+}
+          
+.hidden {
+   display: none;
+   list-style: none; 
+   position: relative;          
+}
 
-          .list a{
-            list-style: none;
-            text-decoration: none;
-            color: white;
-          }
+.list a{
+  list-style: none;
+text-decoration: none;
+color: white;
+}
 
-          main{
-            padding-top: 6.5rem;
-          }
+main{
+padding-top: 6.5rem;
+}
+

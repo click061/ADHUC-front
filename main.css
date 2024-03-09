@@ -1,5 +1,20 @@
 main{
-    height: 90vh;
+    height: 190vh;
+}
+
+.list{
+ 
+  
+    align-items: center;
+    text-align: center;
+    border-radius: 0.3rem;
+    transition: all 0.4s;
+    position: relative;
+}
+
+.list:hover{
+    opacity: 0.3;
+    background-color: rgba(240, 240, 240, 0.486);
 }
 
 li{
@@ -8,16 +23,50 @@ text-decoration: none;
 }
 
 
-.mySlides img{
-    
-    width: 412px;
-    height: auto;
+.desc{
+color: red;
+}
+
+.produto ul li{
+    color: aliceblue;
+    list-style: none;
 }
 
 
 
 
-.c-imgs{
-    background-color: rgb(0, 0, 0);
-    text-align: center;
+
+.produto img{
+    border-radius: 0.4rem;
+    width: 210px;
+    height: auto;
+}
+.produtos{
+    
+    display: flex;
+   justify-content: space-between;
+   overflow: auto;
+  text-align: center;
+   
+}
+
+.produto{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.carrinho-add{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(104, 11, 11);
+    border: 1px solid rgb(104, 11, 11);
+    border-radius: 50%;
+    padding: 7px;
+
+}
+
+.produto ul{
+    margin-bottom: 0.98rem;
 }
