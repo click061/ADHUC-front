@@ -24,7 +24,8 @@ text-decoration: none;
 
 
 .desc{
-color: red;
+color: rgb(156, 0, 0);
+font-size: 13px;
 }
 
 .produto ul li{
@@ -38,21 +39,20 @@ color: red;
 
 .produto img{
     border-radius: 0.4rem;
-    width: 210px;
+    width: 150px;
     height: auto;
 }
 .produtos{
-    
+    margin-left: 1rem;
+    margin-right: 1rem;
     display: flex;
-   justify-content: space-between;
    overflow: auto;
   text-align: center;
    
 }
 
 .produto{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 1.4rem;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -70,3 +70,32 @@ color: red;
 .produto ul{
     margin-bottom: 0.98rem;
 }
+
+
+@media screen and (max-width: 768px) {
+    .produto img{
+        border-radius: 0.3rem;
+        width: 90px;
+        height: auto;
+    }
+
+    .produto{
+        margin-right: 0.2rem;
+        margin-top: 30px;
+        margin-bottom: 11px;
+    }
+
+    .bar{
+        font-size: 1rem;
+    }
+
+    .desc{
+     font-size: 1px;
+      margin: none;
+    }
+
+   .list{
+    font-size: 12px;
+   }
+}
+
