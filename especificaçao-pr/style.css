@@ -37,3 +37,14 @@ header{
     opacity: 0.4;
 transition: all 0.4s;
 }
+
+@media screen and (max-width: 768px) {
+
+    .b-kb{
+        font-size: 0.7rem;
+    }
+    #adhucImg{
+        width: auto;
+        height: 2.7rem;
+    }
+}
