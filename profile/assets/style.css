@@ -1,0 +1,39 @@
+header{
+   
+    position: fixed;
+    width: 100%;
+    height: 2.8rem;
+  
+    border: none;
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+header h3{
+    text-decoration: none;
+    color: white;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    height: 120vh;
+    background: linear-gradient(rgb(43, 43, 43), rgb(61, 61, 61), grey ,grey , rgb(110, 101, 101));
+}
+
+.items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
